@@ -28,17 +28,22 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    
 }
 
 .main-header .contact-info {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .main-header .contact-info a {
     color: #fff;
     text-decoration: none;
     margin-right: 20px;
+    text-decoration: none;
 }
 
 .main-header .contact-info a:last-child {
@@ -107,7 +112,7 @@ body {
     background-size: cover;
     background-position: center;
     padding: 100px 0;
-    color: #fff;
+    color: #333;
     text-align: center;
 }
 
@@ -124,25 +129,29 @@ body {
 .kv .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff9800;
-    color: #fff;
+    background-color:lightgreen;
+    color: #333;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .kv .btn:hover {
-    background-color: #f57c00;
+    background-color:green;
 }
 
 /* Service section styles */
 .service-section {
     padding: 50px 0;
+    display: flex;
+    align-items: center;
 }
 
 .service-section h2 {
     font-size: 28px;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .service-section .item {
@@ -158,7 +167,7 @@ body {
 .fill-banner {
     padding: 100px 0;
     text-align: center;
-    color: #fff;
+    color: #333;
 }
 
 .fill-banner h2 {
@@ -174,7 +183,7 @@ body {
 .fill-banner .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff9800;
+    background-color:lightgreen;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -182,13 +191,15 @@ body {
 }
 
 .fill-banner .btn:hover {
-    background-color: #f57c00;
+    background-color:green;
 }
 
 /* Services container styles */
 .services-container {
     background-color: #fff;
-    padding: 50px 0;
+    padding: 50px ;
+    display: flex;
+    align-items: center;
 }
 
 .services-container .section-title {
@@ -219,6 +230,7 @@ body {
 .services-container .service-title {
     font-size: 20px;
     margin-bottom: 10px;
+    
 }
 
 .services-container .description {
