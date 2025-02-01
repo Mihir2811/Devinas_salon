@@ -1,361 +1,166 @@
 <!DOCTYPE html>
-<html lang=en>
-  <head>
-    <meta charset=UTF-8 />
-    <meta name=viewport content="width=device-width, initial-scale=1.0" />
-    <title>Camelia Beauty</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <link href='https://fonts.googleapis.com/css?family=GFS Didot' rel='stylesheet'>
-    <link rel=stylesheet href=style3.css />
-  </head>
-  <body>
-    <header class=main-header>
-      <div class=main-info>
-        <div class=container>
-          <div class=row>
-            <div class=contact>
-              <div class=contact-icon>
-                <i class="fas fa-phone-alt"></i>
-              </div>
-              <div class=contact-main>
-                <a href="tel:+1(516)508-1200" style="font-family:'GFS Didot';">+1 (516) 508-1200</a>
-                <br>
-              </div>
-            </div>
-            <div class=contact>
-              <div class=contact-icon>
-                <i class="fas fa-map-marker-alt"></i>
-              </div>
-              <div class=contact-main>
-                <a  href=https://www.google.com/maps/dir//1305+Middle+Country+Rd+Suite+10+Selden,+NY+11784+USA/@40.8624235,-73.0586589,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e8470c18c53965:0xaf5dd6356798e71e!2m2!1d-73.0586589!2d40.8624235?entry=ttu >1305 Middle Country Road Suite 10 Selden, NY 11784 United States</a>
-              </div>
-            </div>
-          </div>
-        </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devina's Salon</title>
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Font for Typography -->
+  <link href="https://fonts.googleapis.com/css?family=GFS+Didot|Playfair+Display:400,700" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header with Navigation -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <h1>Devina's Salon</h1>
       </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="contact-info">
+        <a href="tel:+1(516)508-1200"><i class="fas fa-phone-alt"></i> +1 (516) 508-1200</a>
+      </div>
+    </div>
+  </header>
 
-    </header>
-    <section class=kv>
-      <div class=slider-banner>
-        <div class=slider-container>
-          <div class="item item-kv-1 active">
-            <div class=container>
-              <div class=row>
-                <div class="item-kv-txt col-md-6 col-xl-4">
-                  <h2>Welcome to Devina's Salon</h2>
-                  <h3 class>Eyebrows speak louder than words</h3>
-                  <a href=https://www.google.com/maps/dir//1305+Middle+Country+Rd+Suite+10+Selden,+NY+11784+USA/@40.8624235,-73.0586589,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e8470c18c53965:0xaf5dd6356798e71e!2m2!1d-73.0586589!2d40.8624235?entry=ttu class=btn>Book an appointment</a>
-                </div>
-              </div>
-            </div>
-          </div>
+  <!-- Hero Section with Peach Background -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>Welcome to Devina's Salon</h1>
+      <h2>Where Beauty Meets Elegance</h2>
+      <a href="#contact" class="btn">Book an Appointment</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2><u>Our Best Services</u></h2>
+      <div class="service-grid">
+        <div class="service-item">
+          <img src="wax.png" alt="Waxing">
+          <h3>Waxing</h3>
+          <p>Professional waxing services for all body areas.</p>
         </div>
-      </div>
-    </section>
-    <section class=service-section>
-      <div class=container>
-        <div class=row>
-          <h2 class=col-12><u> Our Best Services </u></h2>
-          <div class="col-12 col-md-6 col-xl-4 item">
-            <div class="icon icon-pills"></div>
-            <div>
-              <img src=design_2.png width="100" 
-              height="100"/>
-            </div>
-            <h3>Waxing</h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eum temporibus corrupti odio voluptates eligendi soluta, et maiores, culpa illum provident quae, magni aspernatur? Quasi velit aliquid unde. Sequi, eos. </p>
-          </div>
-          <div class="col-12 col-md-6 col-xl-4 item">
-            <div class="icon icon-doctor"></div>
-            <img src=design_1.png width="100" 
-              height="100"/>
-            <h3>Threading</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum veniam aspernatur neque tenetur velit. In minus, esse fugit voluptate doloribus perferendis possimus ipsum expedita cumque maiores impedit eaque odit repudiandae.</p>
-          </div>
-          <div class="col-12 col-md-6 col-xl-4 item">
-            <div class="icon icon-car"></div>
-            <img src=design_5.png width="100" 
-              height="100"/>
-            <h3>Eyelash Extentions</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas esse quam provident adipisci consequuntur assumenda nihil nam distinctio. Harum nesciunt iusto, ipsa dolor fugiat voluptatibus reiciendis assumenda neque odio sed.</p>
-          </div>
-          <div class="col-12 col-md-6 col-xl-4 item">
-            <div class="icon icon-doctor"></div>
-            <img src=Designer.png width="100" 
-              height="100"/>
-            <h3>Facial</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum veniam aspernatur neque tenetur velit. In minus, esse fugit voluptate doloribus perferendis possimus ipsum expedita cumque maiores impedit eaque odit repudiandae.</p>
+        <div class="service-item">
+          <img src="threading.png" alt="Threading">
+          <h3>Threading</h3>
+          <p>Precision threading for eyebrows and facial hair.</p>
         </div>
-      </div>
-    </section>
-    <section class="fill-banner banner-1-bg">
-      <div class=container>
-        <div class=row>
-          <div class="col-12 col-md-10 col-xl-5">
-            <h2> All Kinds <br class="d-none d-xl-inline-block" />of Waxing available. </h2>
-            <p> Underarms, Full arms, Half arms, Full Legs, Half Legs, Full Back, Stomach, Full Brazilian, Bikini Line.
-                 </p>
-            <a href="tel:+1(516)508-1200" class=btn>Call for reservation</a>
-          </div>
+        <div class="service-item">
+          <img src="eyelashes.png" alt="Eyelash Extensions">
+          <h3>Eyelash Extensions</h3>
+          <p>Luxurious eyelash extensions for a stunning look.</p>
         </div>
-      </div>
-    </section>
-    <div class=services-container>
-      <div class=inner-container>
-        <h1 class=section-title><u>Our services</u></h1>
-        <div class=border></div>
-        <div class=service-container>
-          <div class=service-box>
-            <div class=service-icon>
-              <img src=Eyebrow-shaping-and-tinting.png />
-            </div>
-            <div class=service-title>
-              <b>Eyelashes Extenstion</b>
-            </div>
-            <div class=description> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </div>
-          </div>
-          <div class=service-box>
-            <div class=service-icon>
-              <img src=Facial-treatments.png />
-            </div>
-            <div class=service-title>
-              <b>Facials</b>
-            </div>
-            <div class=description> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </div>
-          </div>
-          <div class=service-box>
-            <div class=service-icon>
-              <img src=Haircut-and-styling.png style=margin-top:.3em />
-            </div>
-            <div class=service-title>
-              <b>Body Waxing</b>
-            </div>
-            <div class=description> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </div>
-          </div>
-          <div class=service-box>
-            <div class=service-icon>
-              <img src=Hair-removal.png />
-            </div>
-            <div class=service-title>
-              <b>Eyebrow & Face Threading</b>
-            </div>
-            <div class=description> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </div>
-          </div>
-          
-          </div>
+        <div class="service-item">
+          <img src="facial.png" alt="Facials">
+          <h3>Facials</h3>
+          <p>Relaxing and rejuvenating facial treatments.</p>
         </div>
       </div>
     </div>
-    <ul class=list-members>
-      <li class=member>
-        <div class=member-image>
-          <img src=Screenshot1.png width="300" 
-          height="500" />
+  </section>
+
+  <!-- Gallery Section for Customer Photos -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <h2><u>Customer Gallery</u></h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="./Screenshot1.png" alt="Customer 1">
         </div>
-        <div class=member-info>
-          <h3 style="padding: 10px;">Ashley Holub</h3>
-          <p style="padding: 10px;">Devina is amazing!! She is so easy to schedule with and did an amazing job with my brows. I feel like I have always requested "more arch" but she really truly finally made that happen. She is also very sweet and clearly loves what she does. Highly recommend</p>
-          <div class=social-link>
-            <br>
-          </div>
+        <div class="gallery-item">
+          <img src="./Screenshot2.png" alt="Customer 2">
         </div>
-      </li>
-      <li class=member>
-        <div class=member-image>
-          <img src=Screenshot2.png width="300" 
-          height="500" />
+        <div class="gallery-item">
+          <img src="./Screenshot3.png" alt="Customer 3">
         </div>
-        <div class=member-info>
-          <h3 style="padding: 10px;">Monique Caldwell</h3>
-          <p style="padding: 10px;">Devina took me as a walk in, she was very kind and professional. She explained different options I had and the upkeep of the tinting service she provided.
-            I will definitely come back to her again!</p>
-          <div class=social-link>
-            <br>
-          </div>
-        </div>
-      </li>
-      <li class=member>
-        <div class=member-image>
-          <img src=Screenshot3.png width="300" 
-          height="500" />
-        </div>
-        <div class=member-info>
-          <h3 style="padding: 10px;">Tova Harris</h3>
-          <p style="padding: 10px;">Devina is efficient and wonderful! So glad I found her and looking forward to a new and happy relationship with my eyebrows!</p>
-          <div class=social-link>
-            <br>
-          </div>
-        </div>
-      </li>
-      <li class=member>
-        <div class=member-image>
-          <img src=Screenshot4.png width="300" 
-          height="500" />
-        </div>
-        <div class=member-info>
-          <h3 style="padding: 10px;">Jennifer Flaccomio</h3>
-          <p style="padding: 10px;"> I needed my eyebrows re-shaped.  I Googled "eyebrow shaping near me" and Devina's Salon popped up.  I got an appointment right away, and she threaded my eyebrows with no more pain than waxing and they look AMAZING.  She even tinted my eyebrows!  I will definitely be back!!!!</p>
-          <div class=social-link>
-            <br>
-          </div>
-        </div>
-      </li>
-    </ul>
-    <section class="fill-banner banner-2-bg">
-      <div class=container>
-        <div class=row>
-          <div class="col-12 col-md-10 col-xl-5">
-            <h2>Visit<br class="d-none d-xl-inline-block" />Our Store</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis corporis dicta eius, quidem animi. </p>
-            <a href=https://www.google.com/maps/dir//devina's+salon/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x89e8474192e2ba53:0x5e6fbd8122574181?sa=X&ved=1t:3061&ictx=111 class=btn>Locate</a>
-          </div>
+        <div class="gallery-item">
+          <img src="./Screenshot4.png" alt="Customer 4">
         </div>
       </div>
-    </section>
-    <section class=blog>
-      <div class=container>
-        <div class=row>
-          <h1 class=col-12 style="text-align: center;"><u>Latest Posts</u></h1><br><br>
-          <article class="col-8 col-md-6 col-xl-4">
-            <div class=post>
-              <a class=img-hover href=#>
-                <img src=blog-1.jpg />
-              </a>
-              <h2>
-                <a href=#>Waxing</a>
-              </h2>
-              <h3 class=time> jan 19, 2023 at 5:12pm </h3>
-              <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, eveniet cupiditate magni sapiente sunt rem placeat laboriosam numquam deserunt ipsa? </p>
-            </div>
-          </article>
-          <article class="col-8 col-md-6 col-xl-4">
-            <div class=post>
-              <a class=img-hover href=#>
-                <img src=blog-2.jpg />
-              </a>
-              <h2>
-                <a href=#>Threading</a>
-              </h2>
-              <h3 class=time> fab 19, 2023 at 9:45am </h3>
-              <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam inventore illum ea alias ex ipsum!... </p>
-            </div>
-          </article>
-          <article class="col-8 col-md-6 col-xl-4">
-            <div class=post>
-              <a class=img-hover href=#>
-                <img src=blog-3.jpg />
-              </a>
-              <h2>
-                <a href=#>Eyebrows Extensions</a>
-              </h2>
-              <h3 class=time> dec 26, 2023 at 5:12pm </h3>
-              <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet iusto totam expedita quaerat minus perferendis eos repudiandae reiciendis modi doloribus. </p>
-            </div>
-          </article>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-item">
+          <img src="client1.jpg" alt="Ashley Holub">
+          <h3>Ashley Holub</h3>
+          <p>Devina is amazing! She did an incredible job with my brows. Highly recommend!</p>
+        </div>
+        <div class="testimonial-item">
+          <img src="client2.jpg" alt="Monique Caldwell">
+          <h3>Monique Caldwell</h3>
+          <p>Devina was very kind and professional. I will definitely come back!</p>
         </div>
       </div>
-    </section>
-    <footer class=main-footer>
-      <div class=container>
-        <div class=row>
-          <div class=col-4>
-            <div class=footer-logo>
-              <a href=#>
-                <img src=.svg class=logo-light />
-              </a>
-            </div>
-            <ul class=sns>
-              <li class=icon-fb>
-                <a href=#>
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class=icon-twitter>
-                <a href=#>
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class=icon-instagram>
-                <a href=https://www.instagram.com/devina1270/>
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li class=icon-pinterest>
-                <a href=#>
-                  <i class="fab fa-pinterest"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class=col-4>
-            <h3>CONTACT US</h3>
-            <div class=contact>
-              <div class=contact-icon>
-                <i class="fas fa-phone-alt"></i>
-              </div>
-              <div class=contact-main>
-                <a href=#>+1 (516) 508-1200</a>
-                <br/>
-              </div>
-            </div>
-            <div class=contact>
-              <div class=contact-icon>
-                <i class="fas fa-map-marker-alt"></i>
-              </div>
-              <div class=contact-main>
-                <a href=https://www.google.com/maps/dir//1305+Middle+Country+Rd+Suite+10+Selden,+NY+11784+USA/@40.8624235,-73.0586589,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89e8470c18c53965:0xaf5dd6356798e71e!2m2!1d-73.0586589!2d40.8624235?entry=ttu>1305 Middle Country Road Suite 10 Selden, NY 11784 United States</a>
-              </div>
-            </div>
-            <div class=contact>
-              <div class=contact-icon>
-                <i class="fas fa-envelope"></i>
-              </div>
-              <div class=contact-main>
-                <a href=https://mail.google.com/mail/>devinapanchal12@gmail.com</a>
-              </div>
-            </div>
-          </div>
-          <div class=col-4>
-            <h3>Any Query</h3>
-            <p> Enter your email address to receive up-to-date, new services and other useful stuff, delivered right to your inbox. </p>
-            <div class=form-group>
-              <input class=form-control type=text placeholder="Your e-mail..." />
-              <button class=submit-btn type=submit>Subscribe</button>
-            </div>
-          </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2><u>Contact Us</u></h2>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <i class="fas fa-phone-alt"></i>
+          <p>+1 (516) 508-1200</p>
         </div>
-        <div class=row>
-          <div class=copyright> © 2024 Build by <a href=https://www.linkedin.com/in/mihir-panchal-336563214/>Mihir Panchal</a>
-          </div>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <p><a href="https://maps.app.goo.gl/yk8FsLkTUyreJdsW6" target="_blank">1305 Middle Country Road, Suite 10, Selden, NY 11784 </a></p>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+
+          <p>devinapanchal12@gmail.com</p>
         </div>
       </div>
-    </footer>
-    <div id=goTop class=goTop></div>
-    <script src=jqury.min.js></script>
-    <script>
-      $(function() {
-        $(window).scroll(function() {
-          if ($(document).scrollTop() > 60) {
-            $(".main-nav").addClass("sticky")
-          } else {
-            $(".main-nav").removeClass("sticky")
-          }
-        });
-        $("#goTop").click(function() {
-          $("html,body").animate({
-            scrollTop: 0
-          }, "slow");
-          return false
-        });
-        $(window).scroll(function() {
-          if ($(this).scrollTop() > 300) {
-            $("#goTop").addClass("active")
-          } else {
-            $("#goTop").removeClass("active");
-            return false
-          }
-        }).scroll()
-      });
-    </script>
-  </body>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-item">
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-item">
+          <h3>Subscribe</h3>
+          <p>Get updates on new services and promotions.</p>
+          <form class="subscribe-form">
+            <input type="email" placeholder="Your email..." required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2024 Devina's Salon. Built by Mihir Panchal.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
 </html>
